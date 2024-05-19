@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
+@import 'css/bootstrap.min.css';
 
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
-    font-family:sans-serif;
+    font-family: 'Cabin', sans-serif;
     background-color: #fff;
 }
 
@@ -16,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-weight: 400;
     color: #000;
     line-height: 1.2;
@@ -24,10 +25,9 @@ h6 {
 
 p {
     color: #726a84;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
-    margin-top: 200px;
-font-family:monospace;
+    margin-top: 0;
 }
 
 .heading-text > p {
@@ -47,14 +47,14 @@ font-family:monospace;
 }
 
 .wellcome_area {
-  background:linear-gradient(110deg, coral ,45%, cyan 60%) ;
- height: 800px;
+    background-image: url(img/bg-img/welcome-bg.png);
+    height: 500px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
-    }
-    
+}
+
 .welcome-thumb {
     width: 42%;
     position: absolute;
@@ -73,10 +73,7 @@ font-family:monospace;
 }
 
 .get-start-area .email {
-    background: yellow;
-border: 2px solid black;
-font-family:monospace;
-transition: .6s;
+    background: #9572e8;
     height: 50px;
     max-width: 260px;
     border: none;
@@ -105,31 +102,31 @@ transition: .6s;
 }
 
 .get-start-area .email:focus {
-    border-left: 40px solid black;
+    border: none;
     outline-offset: transparent !important;
     border-radius: 30px;
 }
 
 .get-start-area .submit {
+    background-color: #fb397d;
+    color: #fff;
     font-weight: 500;
     display: inline-block;
+    border: none;
     height: 50px;
     min-width: 167px;
-    line-height: 10px;
+    line-height: 46px;
     text-align: center;
     border-radius: 24px 24px 24px 0px;
     margin-left: 10px;
-	background: cyan;
-	border:2px solid black;
-	padding: 10px 10px;
-	width: 100px;
-	font-family: monospace;
-	transition: 0.6s;
 }
 
 .get-start-area .submit:hover {
-    background-color: black;
-	color: cyan;
+    background: #6f52e5;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
 }
 
 .wellcome-heading > p {
@@ -137,9 +134,9 @@ transition: .6s;
 }
 
 .wellcome-heading > h3 {
-    font-size: 300px;
+    font-size: 332px;
     position: absolute;
-    top: -70px;
+    top: -134px;
     font-weight: 900;
     left: -12px;
     z-index: -1;
